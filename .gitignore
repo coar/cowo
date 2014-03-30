@@ -17,3 +17,7 @@
 
 # Ignore Database yaml file
 /config/database.yml
+
+# Ignore Capistrano config files
+/config/deploy.rb
+/config/deploy/*
