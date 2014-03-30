@@ -1,14 +1,15 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
 
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'cowo'
+set :repo_url, 'https://github.com/coar/cowo.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
 # Default deploy_to directory is /var/www/my_app
 # set :deploy_to, '/var/www/my_app'
+set :deploy_to, '/home/vagrant/apps/cowo'
 
 # Default value for :scm is :git
 # set :scm, :git
