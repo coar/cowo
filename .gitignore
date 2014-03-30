@@ -21,3 +21,6 @@
 # Ignore Capistrano config files
 /config/deploy.rb
 /config/deploy/*
+
+# Ignore the Secrets Yaml file
+/config/secrets.yml
